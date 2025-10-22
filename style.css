@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    box-sizing: border-box;    
+    font-family: "Roboto", sans-serif;
+}
+
+.headSec{
+    background-color: darkmagenta;
+    height: 90vh;
+    color: #fff;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+}
+
+.myLinks a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+.contact{
+    text-decoration: none;
+    background-color: #fff;
+    color: darkmagenta;
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #fff;
+}
+.contact:hover{
+    background-color: darkmagenta;
+    color: #fff;
+    border: 1px solid #fff;
+    opacity: 0.9;
+}
+
+.PersonalDiv{
+    padding: 0px 20%;
+}
+
+.title{
+    font-size: 65px;
+    letter-spacing: 2px;
+    padding: 30px 0px;
+}
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutMe p{
+    width: 50%;
+}
+
+.mySkills {
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+}
+
+.mySkills li{
+    padding: 20px;
+}
+.blogSec{
+    padding: 65px 20%;
+}
+
+.mainTitle{
+    font-size: 60px;
+}
+
+.blogPosts{
+
+}
+
+.blogPost{
+    margin-top: 12px;
+}
+.blogTitle{
+    font-weight: 500;
+}
+.blogText{
+    font-size: 20px;
+}
+.blogDate{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.eventsSec{
+    background-color: lightgray;
+    padding: 65px 20%;
+}
+.events{
+
+}
+.event{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px 0px;
+}
+.eventTitle{
+    font-size: 26px;
+}
+.eventLoc{
+
+}
+.eventDate{
+    font-size: 12px;
+    color: gray;
+}
+.fab {
+    padding: 12px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 12px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+footer{
+    background-color: black;
+    padding: 65px;
+    display: flex;
+    justify-content: space-around;
+}
